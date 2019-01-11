@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "read-screen-color-debug-win
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "read-screen-color-console", "read-screen-color-console\read-screen-color-console.csproj", "{9E6AD3C1-C8E4-44F0-81A5-EE75B163F1EE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "read-screen-color-benchmarking", "read-screen-color-benchmarking\read-screen-color-benchmarking.csproj", "{BA976E89-078E-4732-87A8-0BAA2934591B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{9E6AD3C1-C8E4-44F0-81A5-EE75B163F1EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E6AD3C1-C8E4-44F0-81A5-EE75B163F1EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E6AD3C1-C8E4-44F0-81A5-EE75B163F1EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA976E89-078E-4732-87A8-0BAA2934591B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA976E89-078E-4732-87A8-0BAA2934591B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA976E89-078E-4732-87A8-0BAA2934591B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA976E89-078E-4732-87A8-0BAA2934591B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -11,7 +11,7 @@ namespace read_screen_color_debug_window
         public Form1()
         {
             this.InitializeComponent();
-            this.readScreenColor = new ReadScreenColor(new Size(1, 1));
+            this.readScreenColor = new ReadScreenColor(/*new Size(1, 1)*/);
 
             this.timer1.Start();
             this.timer1.Interval = (int)(1000 / ReadScreenColor.PerSecond);
