@@ -53,6 +53,7 @@
             this.Controls.Add(this.panel1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.ResizeEnd += new System.EventHandler(this.Form1_ResizeEnd);
             this.ResumeLayout(false);
 
         }

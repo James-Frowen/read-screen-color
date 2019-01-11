@@ -20,7 +20,7 @@ namespace read_screen_color
         private Stopwatch stopwatch;
         public static Size ScreenSize = new Size(1920, 1080);
         public static int PartSize = 100;
-        public static Size AverageSize = new Size(16, 9);
+        public static Size AverageSize = new Size(16 * 120, 9 * 120);
         //private Bitmap[,] screenPixels;
         private Bitmap screen = new Bitmap(ScreenSize.Width, ScreenSize.Height, PixelFormat.Format32bppArgb);
         private Bitmap screenTop = new Bitmap(ScreenSize.Width, PartSize, PixelFormat.Format32bppArgb);
@@ -76,7 +76,7 @@ namespace read_screen_color
 
         private void checkScreen()
         {
-            this.ReadScreen();
+            this.CopyFromScreen();
 
             using (Graphics gavg = Graphics.FromImage(this.average))
             {

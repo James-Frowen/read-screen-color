@@ -7,7 +7,7 @@ namespace read_screen_color_debug_window
     public partial class Form1 : Form
     {
         private ReadScreenColor readScreenColor;
-        private Size imageSize = new Size(16 * 30, 9 * 30);
+        private Size imageSize = new Size(16 * 60, 9 * 60);
         public Form1()
         {
             this.InitializeComponent();
@@ -27,6 +27,11 @@ namespace read_screen_color_debug_window
             {
                 gfx.DrawImage(result, 0, 0, this.imageSize.Width, this.imageSize.Height);
             }
+        }
+
+        private void Form1_ResizeEnd(object sender, System.EventArgs e)
+        {
+            this.imageSize = this.ClientSize;
         }
     }
 }
